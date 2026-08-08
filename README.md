@@ -4,20 +4,20 @@
 
 This project is an interactive Microsoft Power BI dashboard developed to analyze crime patterns, crime severity, incident timing, clearance rates, and the different roles associated with crime incidents.
 
-The dashboard combines an executive overview with interactive tooltip and drillthrough functionality to allow users to explore crime data from both a high-level and detailed perspective.
+The project combines an Executive Dashboard, interactive Tooltip, and Drillthrough page to provide both high-level and detailed crime analysis.
 
 ---
 
 ## Business Objective
 
-The objective of this project is to provide a clear view of crime patterns and incident characteristics to support data-driven analysis and decision-making.
+The objective of this project is to analyze crime patterns and incident characteristics to support data-driven decision-making.
 
 The dashboard helps users:
 
 - Monitor overall crime volume and resolution status.
 - Analyze crime patterns across different time periods.
 - Examine crime severity and incident timing.
-- Understand the roles of individuals involved in crime incidents.
+- Understand the different roles associated with crime incidents.
 - Explore detailed information about selected crime incidents.
 - Evaluate crime clearance performance.
 
@@ -31,10 +31,10 @@ The dashboard helps users:
 
 ## Power BI Features & Functions Used
 
-- Data Cleaning and Transformation
+- Power Query
 - Data Modeling
 - DAX
-- Interactive Visualizations
+- Pivot/Interactive Visualizations
 - Slicers
 - Filters
 - Report Page Tooltips
@@ -43,13 +43,13 @@ The dashboard helps users:
 
 ---
 
-## Dashboard Pages
+# Dashboard Preview
 
-### 1. Main Executive Dashboard
+## 1. Main Executive Dashboard
 
 The Executive Dashboard provides a high-level overview of crime activity and performance.
 
-It includes analysis of:
+It includes:
 
 - Total crimes
 - Resolved and unresolved cases
@@ -60,23 +60,27 @@ It includes analysis of:
 - Crime occurrence time
 - Crime clearance rate
 
+### Executive Dashboard
+
 ![Tactical Crime Executive Dashboard](01%20-%20Tactical%20Crime%20Executive%20Dashboard.png)
 
 ---
 
-### 2. Tooltip – Crime Time and Severity Analysis
+# 2. Tooltip
 
-This tooltip provides additional information when users interact with the scatter chart on the Executive Dashboard.
+The Tooltip provides additional information when users interact with the scatter chart on the Executive Dashboard.
 
-It gives users more detailed context around crime occurrence time and crime patterns without leaving the main dashboard.
+It gives users additional context about crime occurrence time and crime patterns without leaving the main dashboard.
+
+### Crime Time and Severity Tooltip
 
 ![Crime Time and Severity Tooltip](02%20-%20Crime%20Time%20and%20Severity%20Tooltip.png)
 
 ---
 
-### 3. Drillthrough – Crime Incident Detail Analysis
+# 3. Drillthrough
 
-The Drillthrough page allows users to move from the Executive Dashboard into a more detailed analysis of selected crime information.
+The Drillthrough page allows users to move from the Executive Dashboard into a detailed analysis of selected crime information.
 
 It provides deeper information about:
 
@@ -89,6 +93,8 @@ It provides deeper information about:
 - Witnesses
 - Informants
 - Accomplices
+
+### Crime Incident Drillthrough
 
 ![Crime Incident Drillthrough](03%20-%20Crime%20Incident%20Drillthrough.png)
 
@@ -137,9 +143,9 @@ Based on the analysis, the following recommendations can be considered:
 ## Project Files
 
 - `Tactical Crime .pbix` — Power BI project file.
-- `01 - Tactical Crime Executive Dashboard.png` — Main Executive Dashboard preview.
-- `02 - Crime Time and Severity Tooltip.png` — Tooltip preview.
-- `03 - Crime Incident Drillthrough.png` — Drillthrough page preview.
+- `01 - Tactical Crime Executive Dashboard.png` — Main Executive Dashboard.
+- `02 - Crime Time and Severity Tooltip.png` — Tooltip.
+- `03 - Crime Incident Drillthrough.png` — Drillthrough page.
 
 ---
 
